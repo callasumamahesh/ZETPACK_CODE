@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+section{
+    margin:auto;
+    width:600px;
+    height:500px;
+    border:2px solid rgb(31, 29, 29,0.2);
+}
+section{
+    margin-top:5%;
+}
+section header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:15px;
+}
+#all{
+    padding-top: 30px;
+    padding-left: 20px;
+    font-weight: 500;
+}
+#view{
+    margin-top:30px;
+    margin-right:10px;
+    padding:5px;
+    width:150px;
+    background-color: rgb(127, 127, 190);
+    border-radius: 5px;
+    color:white;
+    font-size: 18px;
+    cursor: pointer;
+}
+table th{
+    padding:8px;
+}
+section #button{
+    width:400px;
+    height: 40px;
+    background-color: blue;
+    text-align:center;
+    border-radius:5px;
+    padding:10px;
+    color:white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+section #button{
+    position:fixed;
+    top:600px;
+    left:500px;
+    
+}
+th,tr{
+    width:14%;
+}
+table{
+    overflow : auto;
+}
+#table-container {
+    height: 400px; /* Set a fixed height for the container */
+    overflow: auto; /* Add scrollbars when the content overflows the container */
+}
